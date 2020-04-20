@@ -3,7 +3,7 @@
 
 // Die Funktionen sind:
 /*Eingabe von Vektoren  
-Klasse Vektor 
+Klasse Vektor --- Erledigt
 Beliebig viele Vektoren (Jeden Vektor einzeln + Button “Hinzufügen”) 
 Geraden , Ebenen , Zahlen 
 Grafische Oberfläche zur Eingabe 
@@ -25,3 +25,11 @@ Ebenenformen
 Abstand, Orthogonalität 
 Magenta Boxshadow (dark mode?) 
 Formelanzeige mit Berechnung */ 
+
+class Vector{
+	constructor(xPos, yPos, zPos){
+		this.xPos = xPos;
+		this.yPos = yPos;
+		this.zPos = zPos;
+	}  
+}
