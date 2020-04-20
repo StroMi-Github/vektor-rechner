@@ -32,4 +32,8 @@ class Vector{
 		this.yPos = yPos;
 		this.zPos = zPos;
 	}  
+	
+	ausgabe(){
+		return "x = " + this.xPos + "y = " + this.yPos + "z = " + this.zPos;
+	}
 }
